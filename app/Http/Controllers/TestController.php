@@ -26,6 +26,9 @@ class TestController extends Controller
 
     public function testNamespace(){
         RestAPI::test();
+
+
+
         echo TestNamespace::getMessage();
     }
 
